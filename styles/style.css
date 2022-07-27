@@ -1,0 +1,75 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+#fcals {
+  display: flex;
+  height: 55rem;
+  width: 30rem;
+  margin: 5rem, 0rem, 5rem, 50rem;
+  border: 2px, solid, black;
+  border-radius: 5em;
+}
+
+#fcals form {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 6%;
+  padding-left: 1.8rem;
+}
+
+#fcals input[type="textfield"] {
+  height: 15%;
+  width: 80%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: default;
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+  font-size: 4rem;
+  border: 0px;
+  padding: 1.5rem;
+  outline: 0;
+}
+
+#fcals input[type="button"],
+input[type="reset"] {
+  width: 20%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: black;
+  padding: 1.8rem;
+  margin: 0.3rem;
+  border: 0;
+  border-radius: 100%;
+}
+
+#fcals .orange {
+  background-color: rgb(246, 153, 6) !important;
+  color: white !important;
+}
+#fcals .gray {
+  background-color: rgb(160, 160, 160) !important;
+  color: black !important;
+}
+
+#fcals .dark-gray {
+  background-color: rgb(49, 49, 49) !important;
+  color: white !important;
+}
+
+#fcals .btsize {
+  width: 43% !important;
+  border-radius: 5em !important;
+}
+
+#fcals .AC {
+  padding-left: 10px !important;
+}
+
+#fcals .plus {
+  padding-left: 12px !important;
+}

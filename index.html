@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="fcals">
+      <form name="calculadora">
+        <input type="textfield" name="displayer" value="" readonly />
+        <br />
+        <input type="reset" value="AC" class="gray AC" />
+        <input
+          type="button"
+          value="+/-"
+          onClick="document.calculadora.displayer.value = document.calculadora.displayer.value*-1"
+          class="gray plus"
+        />
+        <input
+          type="button"
+          value="%"
+          onclick="document.calculadora.displayer.value= (document.calculadora.displayer.value*0.01)"
+          class="gray"
+        />
+        <input
+          type="button"
+          value="÷"
+          onClick="document.calculadora.displayer.value+='/'"
+          class="orange"
+        />
+        <br />
+        <input
+          type="button"
+          value="7"
+          onClick="document.calculadora.displayer.value+='7'"
+          class="dark-gray"
+        />
+        <input
+          type="button"
+          value="8"
+          onClick="document.calculadora.displayer.value+='8'"
+          class="dark-gray"
+        />
+        <input
+          type="button"
+          value="9"
+          onClick="document.calculadora.displayer.value+='9'"
+          class="dark-gray"
+        />
+        <input
+          type="button"
+          value="x"
+          onClick="document.calculadora.displayer.value+='*'"
+          class="orange"
+        />
+        <br />
+        <input
+          type="button"
+          value="4"
+          onClick="document.calculadora.displayer.value+='4'"
+          class="dark-gray"
+        />
+        <input
+          type="button"
+          value="5"
+          onClick="document.calculadora.displayer.value+='5'"
+          class="dark-gray"
+        />
+        <input
+          type="button"
+          value="6"
+          onClick="document.calculadora.displayer.value+='6'"
+          class="dark-gray"
+        />
+        <input
+          type="button"
+          value="-"
+          onClick="document.calculadora.displayer.value+='-'"
+          class="orange"
+        />
+        <br />
+        <input
+          type="button"
+          value="1"
+          onClick="document.calculadora.displayer.value+='1'"
+          class="dark-gray"
+        />
+        <input
+          type="button"
+          value="2"
+          onClick="document.calculadora.displayer.value+='2'"
+          class="dark-gray"
+        />
+        <input
+          type="button"
+          value="3"
+          onClick="document.calculadora.displayer.value+='3'"
+          class="dark-gray"
+        />
+        <input
+          type="button"
+          value="+"
+          onClick="document.calculadora.displayer.value+='+'"
+          class="orange"
+        />
+
+        <br />
+        <input
+          type="button"
+          value="0"
+          onClick="document.calculadora.displayer.value+='0'"
+          class="dark-gray btsize"
+        />
+        <input
+          type="button"
+          value="."
+          onClick="document.calculadora.displayer.value+='.'"
+          class="dark-gray"
+        />
+        <input
+          type="button"
+          value="="
+          onClick="document.calculadora.displayer.value=eval(document.calculadora.displayer.value)"
+          class="orange"
+        />
+      </form>
+    </div>
+  </body>
+</html>
